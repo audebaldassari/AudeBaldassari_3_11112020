@@ -1,0 +1,62 @@
+h1 {
+  @include font-palette(brand);
+}
+h2 {
+  @include font-palette(dish-type);
+  &.brand {
+    @include font-palette(brand);
+    margin: 30px 6% 0px;
+  }
+  &.footer {
+    @include font-palette(brand);
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+  }
+  &.dish-type__title {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 40px;
+      display: block;
+      height: 3px;
+      background-color: $tertiary-color;
+      bottom: -5px;
+    }
+  }
+  &.index {
+    @include font-palette(section-title);
+    &.index-section {
+      margin: 20px 20px;
+      padding-top: 50px;
+    }
+  }
+}
+h3 {
+  @include font-palette(dish-name);
+  &.index {
+    @include font-palette(restaurant-name);
+  }
+}
+h4 {
+  @include font-palette(dish-sub);
+}
+html {
+  font-family: roboto;
+}
+footer {
+  @include font-palette(footer);
+  color: white;
+}
+.dish-desc {
+  font-weight: bold;
+}
+.dish-box h4 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 85%;
+}

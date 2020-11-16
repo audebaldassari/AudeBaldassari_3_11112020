@@ -1,0 +1,93 @@
+@keyframes box-appear {
+  0% {
+    opacity: 0;
+    margin-top: -300px;
+  }
+  65% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+@keyframes load-spinner-balls {
+  0% {
+    opacity: 1;
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes load-spinner-balls-index {
+  0% {
+    opacity: 1;
+    transform: rotate(0);
+    transform: scale(2);
+  }
+  25% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes load-spinner-balls-before {
+  0% {
+    transform: translate(-5px, -5px);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-5px, -5px);
+  }
+}
+@keyframes load-spinner-balls-after {
+  0% {
+    transform: translate(5px, 5px);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(5px, 5px);
+  }
+}
+
+@keyframes check-appear {
+  from {
+    margin-left: 110%;
+  }
+  to {
+    margin-left: 90%;
+  }
+}
+
+@keyframes move-price {
+  from {
+    margin-right: 0%;
+  }
+  to {
+    margin-right: 20%;
+  }
+}
+
+@keyframes check-rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(1440deg);
+  }
+}
+@keyframes load-wrapper {
+  0% {
+    z-index: 1;
+    position: fixed;
+  }
+  75% {
+    z-index: 1;
+  }
+  100% {
+    z-index: -1;
+  }
+}
