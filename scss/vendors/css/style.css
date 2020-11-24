@@ -166,6 +166,10 @@ h2.index.index-section {
   padding-top: 50px;
 }
 
+.index-section-restaurants h2 {
+  color: black;
+}
+
 h3 {
   font-size: 18px;
   font-weight: 600;
@@ -194,8 +198,6 @@ html {
 footer {
   font-size: 15px;
   font-weight: 200;
-  color: white;
-  margin: 5px;
   color: white;
 }
 
@@ -412,7 +414,9 @@ body {
   min-height: 150px;
 }
 
-.dish-desc {
+.price {
+  margin-left: 230px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -682,7 +686,7 @@ span {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1024px) {
   header {
     margin: 0px;
     padding: 0px;
@@ -711,7 +715,6 @@ span {
     text-align: center;
   }
   .btn--order {
-    position: absolute;
     display: block;
     height: 50px;
     width: 95%;

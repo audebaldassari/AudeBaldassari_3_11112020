@@ -28,11 +28,19 @@ figure {
     font-size: 26px;
     -webkit-text-stroke: 1px white;
     transition: 0.4s ease-out;
-    background: linear-gradient(210deg, $primary-color, $primary-color, $primary-color, orange, orange) right;
+    background: linear-gradient(
+        210deg,
+        $primary-color,
+        $primary-color,
+        $primary-color,
+        orange,
+        orange
+      )
+      right;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 0%;
-    &:hover{
+    &:hover {
       opacity: 1;
       background-size: 100%;
     }
@@ -103,7 +111,11 @@ figcaption {
   border-radius: $dish-box-radius;
   font-weight: bold;
   &:hover {
-    background: linear-gradient(to right, rgba(lighten($primary-color, 20), 0.2), rgba($primary-color, 0.2));
+    background: linear-gradient(
+      to right,
+      rgba(lighten($primary-color, 20), 0.2),
+      rgba($primary-color, 0.2)
+    );
   }
 }
 figcaption p {
