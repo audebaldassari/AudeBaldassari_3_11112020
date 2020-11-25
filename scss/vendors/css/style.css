@@ -379,6 +379,7 @@ li {
 
 .price {
   margin-right: 0px;
+  font-weight: bold;
 }
 
 html {
@@ -731,5 +732,11 @@ span {
   }
   .fas-title .fas.hidden {
     margin-left: 97%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .price {
+    margin-left: 520px ;
   }
 }
