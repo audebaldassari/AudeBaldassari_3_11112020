@@ -154,7 +154,6 @@ h2.index {
   color: black;
   margin: 5px;
   font-family: "Shrikhand";
-  color: white;
   font-weight: 100;
   font-size: 20px;
   margin: 0px;
@@ -198,6 +197,10 @@ html {
 footer {
   font-size: 15px;
   font-weight: 200;
+  color: white;
+}
+
+footer h2 {
   color: white;
 }
 
