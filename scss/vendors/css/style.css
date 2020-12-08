@@ -628,7 +628,7 @@ span {
   animation: load-wrapper 6s;
 }
 
-@media screen and (min-width: 375px) and (max-width: 720px) {
+@media screen and (min-width: 720px) {
   figure {
     max-width: 22%;
   }
